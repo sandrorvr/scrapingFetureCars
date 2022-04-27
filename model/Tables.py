@@ -59,23 +59,29 @@ class TableAbstract(ABC):
         return pd.DataFrame(self.table.set_index(self.table['feture']).loc[:, 'info']).T
     
     
-    @abstractclassmethod
-    def getInsertGuery(self):
-        pass
-
-    @abstractclassmethod
-    def getValues(self):
-        pass
-    
-        
-
-class TableGeneral(TableAbstract):
-    def getInsertGuery(self):
-        query = '''INSERT INTO general (price,newPriceRoadworthy,roadTax3Months,bodyType,transmission,numberOfSeats,segment,introduction,end,brand) VALUES (?,?,?,?,?,?,?,?,?,?)'''
-        return query
-
     def getValues(self):
         self.table.columns = ['feture', 'info']
         values = list(self.table['info'].values)
         values.append(self.brand)
         return values
+    
+
+    @abstractclassmethod
+    def getInsertGuery(self):
+        pass
+
+
+class TableGeneral(TableAbstract):
+    def getInsertGuery(self):
+        return '''INSERT INTO general (
+            price,
+            newPriceRoadworthy,
+            roadTax3Months,
+            bodyType,
+            transmission,
+            numberOfSeats,
+            segment,
+            introduction,
+            end,
+            brand
+            ) VALUES (?,?,?,?,?,?,?,?,?,?)'''

@@ -60,16 +60,10 @@ class GetModelUrls:
         titles = soup.select('th > h2')
         return [h2.text for h2 in titles]
 
-    @classmethod
-    def transformTB(cls, tbPandas):
-        tbPandas.columns = ['feture', 'info']
-        return pd.DataFrame(tbPandas.set_index(tbPandas['feture']).loc[:, 'info']).T
-
     def execute(self):
         pag1Urls = self.getUrl(self.base_URL + self._brand, 'models')
         pag2Urls = self.getSubModels(pag1Urls, 'models')
         pag3Urls = self.getSubModels(pag2Urls, 'types')
         return self.getSpec(pag3Urls)
-        #print(self.getSpec(pag3Urls))
 
 
