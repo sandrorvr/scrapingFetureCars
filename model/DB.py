@@ -58,8 +58,10 @@ class DB:
 
         cursor.execute('''CREATE TABLE general (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            price TEXT,newPriceRoadworthy TEXT,
-                            roadTax3Months TEXT,bodyType TEXT,
+                            price TEXT,
+                            newPriceRoadworthy TEXT,
+                            roadTax3Months TEXT,
+                            bodyType TEXT,
                             transmission TEXT,
                             numberOfSeats INTEGER,
                             segment TEXT,
@@ -74,9 +76,20 @@ class DB:
                             practiceConsumptionMonitor TEXT,
                             brand TEXT);''')
 
-        cursor.execute('''CREATE TABLE consumption (
+        cursor.execute('''CREATE TABLE consumptionNEDC (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
+                            urbanConsumption TEXT,
+                            extraUrbanConsumption TEXT,
+                            combinedConsumption TEXT,
+                            co2Emissions TEXT,
+                            energyLabel TEXT,
+                            powerConsumption TEXT,
+                            batteryRange TEXT,
+                            brand TEXT
+                            )''')
+        
+        cursor.execute('''CREATE TABLE consumptionWLTP (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
                             lowConsumption TEXT,
                             mediumConsumption TEXT,
                             highConsumption TEXT,
@@ -85,27 +98,27 @@ class DB:
                             co2Emissions TEXT,
                             batteryRange TEXT,
                             powerConsumption TEXT,
+                            brand TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE chassis (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
-                            frontSuspension TEXT,
-                            rearSuspension TEXT,
-                            frontSuspension TEXT,
-                            rearSuspension TEXT,
+                            frontSuspension1 TEXT,
+                            rearSuspension1 TEXT,
+                            frontSuspension2 TEXT,
+                            rearSuspension2 TEXT,
                             frontStabilizer TEXT,
                             rearStabilizer TEXT,
                             frontBrakes TEXT,
                             rearBrakes TEXT,
                             frontTireSize TEXT,
                             rearTireSize TEXT,
-                            turningCircle TEXT
+                            turningCircle TEXT,
+                            brand TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE transmission (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             gear1 TEXT,
                             gear2 TEXT,
                             gear3 TEXT,
@@ -118,12 +131,12 @@ class DB:
                             reverseGear TEXT,
                             finalDrive TEXT,
                             RpmAt120Km TEXT,
+                            brand TEXT
                             )''')
 
         #tables SIZES
         cursor.execute('''CREATE TABLE weights (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             curbWeight TEXT,
                             maxPayload TEXT,
                             maxPermissibleMass TEXT,
@@ -133,21 +146,21 @@ class DB:
                             maxUnbrakedTrailerMass TEXT,
                             maxNoseWeight TEXT,
                             maxRoofLoad TEXT,
+                            brand TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE luggageLoadCompartment (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             cargoCapacity TEXT,
                             lengthMinmax TEXT,
                             widthMinmax TEXT,
                             height TEXT,
                             heightLiftThreshold TEXT,
+                            brand TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE exteriorSizes (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             length TEXT,
                             width TEXT,
                             height TEXT,
@@ -155,11 +168,11 @@ class DB:
                             frontTrack Width TEXT,
                             rearTrack Width TEXT,
                             groundClearance TEXT,
+                            brand TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE interiorSizes (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             DistanceBackrestPedals TEXT,
                             FrontHeadroom TEXT,
                             FrontBackrestLength TEXT,
@@ -173,12 +186,12 @@ class DB:
                             RearSeatLength TEXT,
                             RearSeatHeight TEXT,
                             RearInteriorWidth TEXT,
+                            brand TEXT
                             )''')
 
         #Tables OPTIONS
         cursor.execute('''CREATE TABLE safety (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             crashTestResult TEXT,
                             aBS TEXT,
                             brakeForceDistribution TEXT,
@@ -191,7 +204,7 @@ class DB:
                             driversAirbag TEXT,
                             passengerAirbag TEXT,
                             sideAirbags TEXT,
-                            head/CurtainAirbags TEXT,
+                            headCurtainAirbags TEXT,
                             driversKneeAirbag TEXT,
                             hillAssist TEXT,
                             laneAssist TEXT,
@@ -199,18 +212,17 @@ class DB:
                             fatigueSensor TEXT,
                             tirePressureSensor TEXT,
                             citySafetySystem TEXT,
-                            nightVisionWithPerson TEXT,
-                            recognition TEXT,
+                            nightVisionWithPersonRecognition TEXT,
                             precrashSystem TEXT,
                             highBeamAssistant TEXT,
                             trafficSignRecognition TEXT,
                             collisionWarningSystem TEXT,
-                            automaticLevelControl TEXT
+                            automaticLevelControl TEXT,
+                            brand TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE confort (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             centralDoorLocking TEXT,
                             keylessEntryStart TEXT,
                             startButton TEXT,
@@ -224,12 +236,12 @@ class DB:
                             reverseCamera TEXT,
                             parkingMachine TEXT,
                             electricParkingBrake TEXT,
-                            startStopSystem TEXT
+                            startStopSystem TEXT,
+                            brand TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE interior (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             heightAdjustmentSeat TEXT,
                             lumbarSupportSeat TEXT,
                             electricAdjustmentSeat TEXT,
@@ -245,7 +257,7 @@ class DB:
                             slidingRearSeat TEXT,
                             centerArmrest TEXT,
                             automaticallyDimmingInteriorMirror TEXT,
-                            readingLamp(s) TEXT,
+                            readingLamps TEXT,
                             illuminatedMakeupMirror TEXT,
                             adjustableDashboardLighting TEXT,
                             tachometer TEXT,
@@ -254,19 +266,19 @@ class DB:
                             outsideTemperatureGauge TEXT,
                             boardComputer TEXT,
                             audioSystem TEXT,
-                            digitalRadio(DAB) TEXT,
+                            digitalRadioDAB TEXT,
                             steeringWheelControlsForAudio TEXT,
                             audioInput TEXT,
                             navigationSystem TEXT,
-                            bluetooth TEXT
+                            bluetooth TEXT,
+                            brand TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE exterior (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             IntervalWiper TEXT,
                             AlloyWheels TEXT,
-                            Sliding/TiltingRoof TEXT,
+                            SlidingTiltingRoof TEXT,
                             PanoramicRoof TEXT,
                             RoofRails TEXT,
                             MetallicPaint TEXT,
@@ -285,44 +297,44 @@ class DB:
                             DaytimeRunningLights TEXT,
                             HeadlampWashers TEXT,
                             BurglarAlarm TEXT,
+                            brand TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE serviceWarranty (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             service TEXT,
                             generalWarranty TEXT,
                             bodyWarranty TEXT,
+                            brand TEXT
                             )''')
 
-        cursor.execute('''CREATE TABLE PricesVatBpm (
+        cursor.execute('''CREATE TABLE pricesVatBpm (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             newPriceTax TEXT,
                             newPriceRoadworthy TEXT,
+                            brand TEXT
                             )''')
 
-        cursor.execute('''CREATE TABLE NewPriceHistory (
+        cursor.execute('''CREATE TABLE newPriceHistory (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             newPrice2019 TEXT,
                             newPrice2018 TEXT,
                             newPrice2017 TEXT,
-                            newPrice2016 TEXT
+                            newPrice2016 TEXT,
+                            brand TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE occasionPrices (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             occasionPrice2019 TEXT,
                             occasionPrice2018 TEXT,
                             occasionPrice2017 TEXT,
-                            occasionPrice2016 TEXT,    
+                            occasionPrice2016 TEXT,
+                            brand TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE costsPerMonth (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                            brand TEXT,
                             years4Depreciation TEXT,
                             motorVehicleTax TEXT,
                             insurance TEXT,
@@ -330,6 +342,7 @@ class DB:
                             maintenance TEXT,
                             totalCosts TEXT,
                             totalCostsPerKilometer TEXT,
+                            brand TEXT
                             )''')
 
         self.conn.commit()
