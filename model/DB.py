@@ -24,6 +24,7 @@ class DB:
 
     def createDB(self):
         cursor = self.connect()
+        #tables TECH
         cursor.execute('''CREATE TABLE drive (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
                             driveWheel TEXT,
@@ -117,6 +118,218 @@ class DB:
                             reverseGear TEXT,
                             finalDrive TEXT,
                             RpmAt120Km TEXT,
+                            )''')
+
+        #tables SIZES
+        cursor.execute('''CREATE TABLE weights (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            curbWeight TEXT,
+                            maxPayload TEXT,
+                            maxPermissibleMass TEXT,
+                            maxFrontAxleMass TEXT,
+                            maxRearAxleMass TEXT,
+                            maxBrakedTrailerMass TEXT,
+                            maxUnbrakedTrailerMass TEXT,
+                            maxNoseWeight TEXT,
+                            maxRoofLoad TEXT,
+                            )''')
+        
+        cursor.execute('''CREATE TABLE luggageLoadCompartment (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            cargoCapacity TEXT,
+                            lengthMinmax TEXT,
+                            widthMinmax TEXT,
+                            height TEXT,
+                            heightLiftThreshold TEXT,
+                            )''')
+
+        cursor.execute('''CREATE TABLE exteriorSizes (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            length TEXT,
+                            width TEXT,
+                            height TEXT,
+                            wheelbase TEXT,
+                            frontTrack Width TEXT,
+                            rearTrack Width TEXT,
+                            groundClearance TEXT,
+                            )''')
+
+        cursor.execute('''CREATE TABLE interiorSizes (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            DistanceBackrestPedals TEXT,
+                            FrontHeadroom TEXT,
+                            FrontBackrestLength TEXT,
+                            FrontSeatLength TEXT,
+                            FrontEntryHeight TEXT,
+                            FrontInteriorWidth TEXT,
+                            DistanceBackrestFrontRear TEXT,
+                            avgDistanceBackrestFrontRear TEXT,
+                            RearHeadroom TEXT,
+                            BackrestLength TEXT,
+                            RearSeatLength TEXT,
+                            RearSeatHeight TEXT,
+                            RearInteriorWidth TEXT,
+                            )''')
+
+        #Tables OPTIONS
+        cursor.execute('''CREATE TABLE safety (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            crashTestResult TEXT,
+                            aBS TEXT,
+                            brakeForceDistribution TEXT,
+                            brakeAssist TEXT,
+                            emergencyBrakingAssistance TEXT,
+                            blindSpotAssist TEXT,
+                            stabilityControl TEXT,
+                            tractionControl TEXT,
+                            limitedSlipDifferential TEXT,
+                            driversAirbag TEXT,
+                            passengerAirbag TEXT,
+                            sideAirbags TEXT,
+                            head/CurtainAirbags TEXT,
+                            driversKneeAirbag TEXT,
+                            hillAssist TEXT,
+                            laneAssist TEXT,
+                            blindSpotAssistant TEXT,
+                            fatigueSensor TEXT,
+                            tirePressureSensor TEXT,
+                            citySafetySystem TEXT,
+                            nightVisionWithPerson TEXT,
+                            recognition TEXT,
+                            precrashSystem TEXT,
+                            highBeamAssistant TEXT,
+                            trafficSignRecognition TEXT,
+                            collisionWarningSystem TEXT,
+                            automaticLevelControl TEXT
+                            )''')
+
+        cursor.execute('''CREATE TABLE confort (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            centralDoorLocking TEXT,
+                            keylessEntryStart TEXT,
+                            startButton TEXT,
+                            controlCircuit TEXT,
+                            electricWindows TEXT,
+                            powerSteering TEXT,
+                            cruiseControl TEXT,
+                            airConditioning TEXT,
+                            leftRightTemperatureControl TEXT,
+                            parkingSensors TEXT,
+                            reverseCamera TEXT,
+                            parkingMachine TEXT,
+                            electricParkingBrake TEXT,
+                            startStopSystem TEXT
+                            )''')
+        
+        cursor.execute('''CREATE TABLE interior (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            heightAdjustmentSeat TEXT,
+                            lumbarSupportSeat TEXT,
+                            electricAdjustmentSeat TEXT,
+                            heatedSeats TEXT,
+                            ventilatedSeats TEXT,
+                            sportsSeats TEXT,
+                            leatherCoveredSteeringWheel TEXT,
+                            adjustableSteeringWheel TEXT,
+                            heatedSteeringWheel TEXT,
+                            leatherUpholstery TEXT,
+                            rearHeadrests TEXT,
+                            foldingRearSeats TEXT,
+                            slidingRearSeat TEXT,
+                            centerArmrest TEXT,
+                            automaticallyDimmingInteriorMirror TEXT,
+                            readingLamp(s) TEXT,
+                            illuminatedMakeupMirror TEXT,
+                            adjustableDashboardLighting TEXT,
+                            tachometer TEXT,
+                            dayCounter TEXT,
+                            coolingWaterTemperatureGauge TEXT,
+                            outsideTemperatureGauge TEXT,
+                            boardComputer TEXT,
+                            audioSystem TEXT,
+                            digitalRadio(DAB) TEXT,
+                            steeringWheelControlsForAudio TEXT,
+                            audioInput TEXT,
+                            navigationSystem TEXT,
+                            bluetooth TEXT
+                            )''')
+
+        cursor.execute('''CREATE TABLE exterior (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            IntervalWiper TEXT,
+                            AlloyWheels TEXT,
+                            Sliding/TiltingRoof TEXT,
+                            PanoramicRoof TEXT,
+                            RoofRails TEXT,
+                            MetallicPaint TEXT,
+                            PaintedBumpers TEXT,
+                            TintedGlass TEXT,
+                            RearPrivacyGlass TEXT,
+                            ElectricMirrors TEXT,
+                            FoldingExteriorMirrors TEXT,
+                            AutomaticallyDimmingExteriorMirrors TEXT,
+                            DirectionIndicatorInExteriorMirrors TEXT,
+                            FrontFogLights TEXT,
+                            AutomaticallySwitchingOnLighting TEXT,
+                            XenonHeadlights TEXT,
+                            LedHeadlights TEXT,
+                            LEDRearLighting TEXT,
+                            DaytimeRunningLights TEXT,
+                            HeadlampWashers TEXT,
+                            BurglarAlarm TEXT,
+                            )''')
+
+        cursor.execute('''CREATE TABLE serviceWarranty (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            service TEXT,
+                            generalWarranty TEXT,
+                            bodyWarranty TEXT,
+                            )''')
+
+        cursor.execute('''CREATE TABLE PricesVatBpm (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            newPriceTax TEXT,
+                            newPriceRoadworthy TEXT,
+                            )''')
+
+        cursor.execute('''CREATE TABLE NewPriceHistory (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            newPrice2019 TEXT,
+                            newPrice2018 TEXT,
+                            newPrice2017 TEXT,
+                            newPrice2016 TEXT
+                            )''')
+        
+        cursor.execute('''CREATE TABLE occasionPrices (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            occasionPrice2019 TEXT,
+                            occasionPrice2018 TEXT,
+                            occasionPrice2017 TEXT,
+                            occasionPrice2016 TEXT,    
+                            )''')
+        
+        cursor.execute('''CREATE TABLE costsPerMonth (
+                            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                            brand TEXT,
+                            years4Depreciation TEXT,
+                            motorVehicleTax TEXT,
+                            insurance TEXT,
+                            fuelCosts TEXT,
+                            maintenance TEXT,
+                            totalCosts TEXT,
+                            totalCostsPerKilometer TEXT,
                             )''')
 
         self.conn.commit()
