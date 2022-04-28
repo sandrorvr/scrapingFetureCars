@@ -34,7 +34,9 @@ class DB:
                             totalMaxPowerKW INTEGER,
                             totalMaxPowerHp INTEGER,
                             maxTorque TEXT,
-                            brand TEXT);''')
+                            brand TEXT,
+                            modelCar TEXT
+                            )''')
 
         cursor.execute('''CREATE TABLE fuelEngine (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -54,7 +56,9 @@ class DB:
                             turbo TEXT,
                             catalyst TEXT,
                             fuelTank Capacity TEXT,
-                            brand TEXT);''')
+                            brand TEXT,
+                            modelCar TEXT
+                            )''')
 
         cursor.execute('''CREATE TABLE general (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -67,14 +71,18 @@ class DB:
                             segment TEXT,
                             introduction TEXT,
                             end TEXT, 
-                            brand TEXT);''')
+                            brand TEXT,
+                            modelCar TEXT
+                            )''')
 
         cursor.execute('''CREATE TABLE performance (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
                             Top Speed TEXT,
                             Acceleration TEXT,
                             practiceConsumptionMonitor TEXT,
-                            brand TEXT);''')
+                            brand TEXT,
+                            modelCar TEXT
+                            )''')
 
         cursor.execute('''CREATE TABLE consumptionNEDC (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -85,7 +93,8 @@ class DB:
                             energyLabel TEXT,
                             powerConsumption TEXT,
                             batteryRange TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE consumptionWLTP (
@@ -98,7 +107,8 @@ class DB:
                             co2Emissions TEXT,
                             batteryRange TEXT,
                             powerConsumption TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE chassis (
@@ -114,7 +124,8 @@ class DB:
                             frontTireSize TEXT,
                             rearTireSize TEXT,
                             turningCircle TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE transmission (
@@ -131,7 +142,8 @@ class DB:
                             reverseGear TEXT,
                             finalDrive TEXT,
                             RpmAt120Km TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
 
         #tables SIZES
@@ -146,7 +158,8 @@ class DB:
                             maxUnbrakedTrailerMass TEXT,
                             maxNoseWeight TEXT,
                             maxRoofLoad TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE luggageLoadCompartment (
@@ -156,7 +169,8 @@ class DB:
                             widthMinmax TEXT,
                             height TEXT,
                             heightLiftThreshold TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE exteriorSizes (
@@ -168,7 +182,8 @@ class DB:
                             frontTrack Width TEXT,
                             rearTrack Width TEXT,
                             groundClearance TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE interiorSizes (
@@ -186,7 +201,8 @@ class DB:
                             RearSeatLength TEXT,
                             RearSeatHeight TEXT,
                             RearInteriorWidth TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
 
         #Tables OPTIONS
@@ -218,7 +234,8 @@ class DB:
                             trafficSignRecognition TEXT,
                             collisionWarningSystem TEXT,
                             automaticLevelControl TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE confort (
@@ -237,7 +254,8 @@ class DB:
                             parkingMachine TEXT,
                             electricParkingBrake TEXT,
                             startStopSystem TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE interior (
@@ -271,7 +289,8 @@ class DB:
                             audioInput TEXT,
                             navigationSystem TEXT,
                             bluetooth TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE exterior (
@@ -297,7 +316,8 @@ class DB:
                             DaytimeRunningLights TEXT,
                             HeadlampWashers TEXT,
                             BurglarAlarm TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE serviceWarranty (
@@ -305,14 +325,16 @@ class DB:
                             service TEXT,
                             generalWarranty TEXT,
                             bodyWarranty TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE pricesVatBpm (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
                             newPriceTax TEXT,
                             newPriceRoadworthy TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE newPriceHistory (
@@ -321,7 +343,8 @@ class DB:
                             newPrice2018 TEXT,
                             newPrice2017 TEXT,
                             newPrice2016 TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE occasionPrices (
@@ -330,7 +353,8 @@ class DB:
                             occasionPrice2018 TEXT,
                             occasionPrice2017 TEXT,
                             occasionPrice2016 TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE costsPerMonth (
@@ -342,7 +366,8 @@ class DB:
                             maintenance TEXT,
                             totalCosts TEXT,
                             totalCostsPerKilometer TEXT,
-                            brand TEXT
+                            brand TEXT,
+                            modelCar TEXT
                             )''')
 
         self.conn.commit()

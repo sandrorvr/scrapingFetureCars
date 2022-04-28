@@ -3,13 +3,14 @@ from model.Tables import Tables
 
 if __name__ == '__main__':
 
-    brand = 'abarth'
+	brand = 'abarth'
 
-    urls = GetModelUrls(brand).execute()
-    for i in range(len(urls)):
-        for espec,url in enumerate(urls[i]):
-            print(url)
-            tabs = GetModelUrls.getTables(url)
-            titles = GetModelUrls.getTitleTB(url)
-            Tables(brand, espec, tabs, titles).save()
-            
+	listPackage = GetModelUrls(brand).execute()
+	for package in listPackage:
+		for urlEspc in package['urlEspecs']:
+			modelCar = package['modelCar']
+			tabs = GetModelUrls.getTables(urlEspc)
+			titles = GetModelUrls.getTitleTB(urlEspc)
+			Tables(brand, modelCar, None, tabs, titles).save()
+			
+
