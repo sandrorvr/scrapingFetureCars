@@ -1,4 +1,5 @@
 from abc import ABC, abstractclassmethod
+from numpy import full_like
 import pandas as pd
 import os
 
@@ -6,10 +7,12 @@ from model.DB import DB
 
 
 class Tables:
-    def __init__(self, brand, modelCar,espec, tabs, titles):
+    def __init__(self, brand, modelCar,fuel, cambio, espec, tabs, titles):
         self.db = DB.createInstace('DataBase.db')
         self.brand = brand
         self.modelCar = modelCar
+        self.fuel = fuel
+        self.cambio = cambio
         self.tabs = tabs
         self.espec = espec
         self.titles = titles
@@ -32,6 +35,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -40,6 +45,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -48,6 +55,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -56,6 +65,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -64,6 +75,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -72,6 +85,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -80,6 +95,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -88,6 +105,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -96,6 +115,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -104,6 +125,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -112,6 +135,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -120,6 +145,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -128,6 +155,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -136,6 +165,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -144,6 +175,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -152,6 +185,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -160,6 +195,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -168,6 +205,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -176,6 +215,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -184,6 +225,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -192,6 +235,8 @@ class Tables:
                     self.tabs[self.tabNow],
                     self.brand, 
                     self.modelCar,
+                    self.fuel,
+                    self.cambio,
                     self.espec, 
                     self.titles[self.tabNow]
                     )
@@ -214,9 +259,11 @@ class Tables:
 
             
 class TableAbstract(ABC):
-    def __init__(self,table, brand, modelCar, espec, title):
+    def __init__(self,table, brand, modelCar,fuel, cambio, espec, title):
         self.brand = brand
         self.modelCar = modelCar
+        self.fuel = fuel
+        self.cambio = cambio
         self.table = table
         self.espec = espec
         self.title = title
@@ -232,6 +279,8 @@ class TableAbstract(ABC):
         values = list(self.table['info'].values)
         values.append(self.brand)
         values.append(self.modelCar)
+        values.append(self.fuel)
+        values.append(self.cambio)
         return values
     
 
@@ -253,8 +302,10 @@ class TableGeneral(TableAbstract):
             introduction,
             end,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TableDrive(TableAbstract):
     def getInsertGuery(self):
@@ -267,8 +318,10 @@ class TableDrive(TableAbstract):
             totalMaxPowerHp,
             maxTorque,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?)'''
 
 
 class TableFuelEngine(TableAbstract):
@@ -291,8 +344,10 @@ class TableFuelEngine(TableAbstract):
             catalyst,
             fuelTank,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TablePerformance(TableAbstract):
     def getInsertGuery(self):
@@ -301,8 +356,10 @@ class TablePerformance(TableAbstract):
             Acceleration,
             practiceConsumptionMonitor,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?)'''
 
 class TableConsumptionWLTP(TableAbstract):
     def getInsertGuery(self):
@@ -316,8 +373,10 @@ class TableConsumptionWLTP(TableAbstract):
             batteryRange,
             powerConsumption,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TableConsumptionNEDC(TableAbstract):
     def getInsertGuery(self):
@@ -330,8 +389,10 @@ class TableConsumptionNEDC(TableAbstract):
             powerConsumption,
             batteryRange,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TableChassis(TableAbstract):
     def getInsertGuery(self):
@@ -348,8 +409,10 @@ class TableChassis(TableAbstract):
             rearTireSize,
             turningCircle,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TableTransmission(TableAbstract):
     def getInsertGuery(self):
@@ -367,8 +430,10 @@ class TableTransmission(TableAbstract):
             finalDrive,
             RpmAt120Km,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TableWeights(TableAbstract):
     def getInsertGuery(self):
@@ -383,8 +448,10 @@ class TableWeights(TableAbstract):
             maxNoseWeight,
             maxRoofLoad,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TableLuggageLoadCompartment(TableAbstract):
     def getInsertGuery(self):
@@ -395,8 +462,10 @@ class TableLuggageLoadCompartment(TableAbstract):
             height,
             heightLiftThreshold,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?)'''
 
 class TableExteriorSizes(TableAbstract):
     def getInsertGuery(self):
@@ -409,8 +478,10 @@ class TableExteriorSizes(TableAbstract):
             rearTrack,
             groundClearance,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?)'''
 
 
 class TableInteriorSizes(TableAbstract):
@@ -430,8 +501,10 @@ class TableInteriorSizes(TableAbstract):
             RearSeatHeight,
             RearInteriorWidth,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 
 class TableSafety(TableAbstract):
@@ -464,8 +537,10 @@ class TableSafety(TableAbstract):
             collisionWarningSystem,
             automaticLevelControl,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TableConfort(TableAbstract):
     def getInsertGuery(self):
@@ -485,8 +560,10 @@ class TableConfort(TableAbstract):
             electricParkingBrake,
             startStopSystem,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TableInterior(TableAbstract):
     def getInsertGuery(self):
@@ -521,8 +598,10 @@ class TableInterior(TableAbstract):
             navigationSystem,
             bluetooth,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TableExterior(TableAbstract):
     def getInsertGuery(self):
@@ -549,8 +628,10 @@ class TableExterior(TableAbstract):
             HeadlampWashers,
             BurglarAlarm,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''
 
 class TableServiceWarranty(TableAbstract):
     def getInsertGuery(self):
@@ -559,8 +640,10 @@ class TableServiceWarranty(TableAbstract):
             generalWarranty,
             bodyWarranty,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?)'''
 
 class TablePricesVatBpm(TableAbstract):
     def getInsertGuery(self):
@@ -568,8 +651,10 @@ class TablePricesVatBpm(TableAbstract):
             newPriceTax,
             newPriceRoadworthy,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?)'''
 
 
 class TableNewPriceHistory(TableAbstract):
@@ -580,8 +665,10 @@ class TableNewPriceHistory(TableAbstract):
             newPrice2017,
             newPrice2016,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?)'''
 
 class TableOccasionPrices(TableAbstract):
     def getInsertGuery(self):
@@ -591,8 +678,10 @@ class TableOccasionPrices(TableAbstract):
             occasionPrice2017,
             occasionPrice2016,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?)'''
 
 class TableCostsPerMonth(TableAbstract):
     def getInsertGuery(self):
@@ -605,5 +694,7 @@ class TableCostsPerMonth(TableAbstract):
             totalCosts,
             totalCostsPerKilometer,
             brand,
-            modelCar
-            ) VALUES (?,?,?,?,?,?,?,?,?)'''
+            modelCar,
+            fuel,
+            cambio
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?)'''

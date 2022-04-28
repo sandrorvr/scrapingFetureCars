@@ -35,7 +35,9 @@ class DB:
                             totalMaxPowerHp INTEGER,
                             maxTorque TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE fuelEngine (
@@ -57,7 +59,9 @@ class DB:
                             catalyst TEXT,
                             fuelTank Capacity TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE general (
@@ -72,7 +76,9 @@ class DB:
                             introduction TEXT,
                             end TEXT, 
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE performance (
@@ -81,7 +87,9 @@ class DB:
                             Acceleration TEXT,
                             practiceConsumptionMonitor TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE consumptionNEDC (
@@ -94,7 +102,9 @@ class DB:
                             powerConsumption TEXT,
                             batteryRange TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE consumptionWLTP (
@@ -108,7 +118,9 @@ class DB:
                             batteryRange TEXT,
                             powerConsumption TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE chassis (
@@ -125,7 +137,9 @@ class DB:
                             rearTireSize TEXT,
                             turningCircle TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE transmission (
@@ -143,7 +157,9 @@ class DB:
                             finalDrive TEXT,
                             RpmAt120Km TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         #tables SIZES
@@ -159,7 +175,9 @@ class DB:
                             maxNoseWeight TEXT,
                             maxRoofLoad TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE luggageLoadCompartment (
@@ -170,7 +188,9 @@ class DB:
                             height TEXT,
                             heightLiftThreshold TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE exteriorSizes (
@@ -183,7 +203,9 @@ class DB:
                             rearTrack Width TEXT,
                             groundClearance TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE interiorSizes (
@@ -202,7 +224,9 @@ class DB:
                             RearSeatHeight TEXT,
                             RearInteriorWidth TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         #Tables OPTIONS
@@ -235,7 +259,9 @@ class DB:
                             collisionWarningSystem TEXT,
                             automaticLevelControl TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE confort (
@@ -255,7 +281,9 @@ class DB:
                             electricParkingBrake TEXT,
                             startStopSystem TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE interior (
@@ -290,7 +318,9 @@ class DB:
                             navigationSystem TEXT,
                             bluetooth TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE exterior (
@@ -317,7 +347,9 @@ class DB:
                             HeadlampWashers TEXT,
                             BurglarAlarm TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE serviceWarranty (
@@ -326,7 +358,9 @@ class DB:
                             generalWarranty TEXT,
                             bodyWarranty TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE pricesVatBpm (
@@ -334,7 +368,9 @@ class DB:
                             newPriceTax TEXT,
                             newPriceRoadworthy TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         cursor.execute('''CREATE TABLE newPriceHistory (
@@ -344,7 +380,9 @@ class DB:
                             newPrice2017 TEXT,
                             newPrice2016 TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE occasionPrices (
@@ -354,7 +392,9 @@ class DB:
                             occasionPrice2017 TEXT,
                             occasionPrice2016 TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
         
         cursor.execute('''CREATE TABLE costsPerMonth (
@@ -367,7 +407,9 @@ class DB:
                             totalCosts TEXT,
                             totalCostsPerKilometer TEXT,
                             brand TEXT,
-                            modelCar TEXT
+                            modelCar TEXT,
+                            fuel TEXT,
+                            cambio TEXT
                             )''')
 
         self.conn.commit()

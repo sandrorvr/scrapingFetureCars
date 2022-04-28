@@ -11,6 +11,6 @@ if __name__ == '__main__':
 			modelCar = package['modelCar']
 			tabs = GetModelUrls.getTables(urlEspc)
 			titles = GetModelUrls.getTitleTB(urlEspc)
-			Tables(brand, modelCar, None, tabs, titles).save()
+			Tables(brand, modelCar,package['fuel'], package['cambio'], None, tabs, titles).save()
 			
 
