@@ -1,0 +1,21 @@
+id,length,width,height,wheelbase,frontTrack,rearTrack,groundClearance,brand,modelCar,fuel,cambio
+1,4054 mm,1740 mm,1233 mm,2310 mm,1496 mm,1503 mm,- mm,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Manual 
+2,4054 mm,1740 mm,1233 mm,2310 mm,1496 mm,1503 mm,- mm,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Automatic 
+3,3660 mm,1627 mm,1485 mm,2300 mm,1409 mm,1402 mm,- mm,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,G, Manual 
+4,3660 mm,1627 mm,1485 mm,2300 mm,1409 mm,1402 mm,- mm,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,F, Automatic 
+5,3660 mm,1627 mm,1485 mm,2300 mm,1407 mm,1397 mm,- mm,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,G, Manual 
+6,3660 mm,1627 mm,1485 mm,2300 mm,1407 mm,1397 mm,- mm,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,F, Automatic 
+7,3660 mm,1627 mm,1485 mm,2300 mm,1409 mm,1402 mm,- mm,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,G, Manual 
+8,3660 mm,1627 mm,1485 mm,2300 mm,1409 mm,1402 mm,- mm,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,F, Automatic 
+9,3660 mm,1627 mm,1485 mm,2300 mm,1409 mm,1402 mm,- mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,G, Manual 
+10,3660 mm,1627 mm,1485 mm,2300 mm,1409 mm,1402 mm,- mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,F, Automatic 
+11,3660 mm,1627 mm,1485 mm,2300 mm,1407 mm,1397 mm,- mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,G, Manual 
+12,3660 mm,1627 mm,1485 mm,2300 mm,1407 mm,1397 mm,- mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,F, Automatic 
+13,3660 mm,1627 mm,1485 mm,2300 mm,1409 mm,1402 mm,- mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,G, Manual 
+14,3660 mm,1627 mm,1485 mm,2300 mm,1409 mm,1402 mm,- mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,F, Automatic 
+15,3660 mm,1627 mm,1485 mm,2300 mm,1407 mm,1397 mm,- mm,abarth,2017 Abarth 695 Cabrio 1.4 T-Jet 165 Yamaha specs,G, Manual 
+16,3677 mm,1640 mm,1479 mm,2300 mm,1423 mm,1411 mm,- mm,abarth,2014 Abarth 695 Biposto specs,G, Manual 
+17,3546 mm,1627 mm,1488 mm,2300 mm,1413 mm,1407 mm,- mm,abarth,2010 Abarth 500C 1.4 16v T-Jet Competizione specs,G, Automatic 
+18,4065 mm,1721 mm,1478 mm,2510 mm,1483 mm,1470 mm,- mm,abarth,2010 Abarth Punto Evo 1.4 T-Jet 16v specs,F, Manual 
+19,3546 mm,1627 mm,1488 mm,2300 mm,1413 mm,1407 mm,- mm,abarth,2008 Abarth 500 1.4 16v T-Jet specs,G, Manual 
+20,4030 mm,1687 mm,1490 mm,2510 mm,1473 mm,1466 mm,- mm,abarth,2008 Abarth Grande Punto 1.4 T-Jet 16v specs,2008 Abarth Grande Punto 1.4 T-Jet 16v specs, Manual 

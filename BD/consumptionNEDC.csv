@@ -1,0 +1,21 @@
+id,urbanConsumption,extraUrbanConsumption,combinedConsumption,co2Emissions,energyLabel,powerConsumption,batteryRange,brand,modelCar,fuel,cambio
+1,"8,5 l/100km","5,1 l/100km","6,4 l/100km",148 g/km,g,,,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Manual 
+2,"9,1 l/100km","5,2 l/100km","6,6 l/100km",153 g/km,g,,,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Automatic 
+3,"7,9 l/100km","4,9 l/100km","6,0 l/100km",139 g/km,g,,,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,G, Manual 
+4,"7,6 l/100km","4,7 l/100km","5,8 l/100km",134 g/km,f,,,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,F, Automatic 
+5,"7,9 l/100km","4,9 l/100km","6,0 l/100km",139 g/km,g,,,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,G, Manual 
+6,"7,6 l/100km","4,7 l/100km","5,8 l/100km",134 g/km,f,,,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,F, Automatic 
+7,"7,9 l/100km","4,9 l/100km","6,0 l/100km",139 g/km,g,,,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,G, Manual 
+8,"7,6 l/100km","4,7 l/100km","5,8 l/100km",134 g/km,f,,,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,F, Automatic 
+9,"7,9 l/100km","4,9 l/100km","6,0 l/100km",139 g/km,g,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,G, Manual 
+10,"7,6 l/100km","4,7 l/100km","5,8 l/100km",134 g/km,f,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,F, Automatic 
+11,"7,9 l/100km","4,9 l/100km","6,0 l/100km",139 g/km,g,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,G, Manual 
+12,"7,6 l/100km","4,7 l/100km","5,8 l/100km",134 g/km,f,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,F, Automatic 
+13,"7,9 l/100km","4,9 l/100km","6,0 l/100km",139 g/km,g,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,G, Manual 
+14,"7,6 l/100km","4,7 l/100km","5,8 l/100km",134 g/km,f,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,F, Automatic 
+15,"7,9 l/100km","4,9 l/100km","6,0 l/100km",139 g/km,g,,,abarth,2017 Abarth 695 Cabrio 1.4 T-Jet 165 Yamaha specs,G, Manual 
+16,"8,5 l/100km","5,4 l/100km","6,5 l/100km",155 g/km,g,,,abarth,2014 Abarth 695 Biposto specs,G, Manual 
+17,"8,5 l/100km","5,4 l/100km","6,5 l/100km",151 g/km,g,,,abarth,2010 Abarth 500C 1.4 16v T-Jet Competizione specs,G, Automatic 
+18,"8,1 l/100km","4,8 l/100km","6,0 l/100km",142 g/km,f,,,abarth,2010 Abarth Punto Evo 1.4 T-Jet 16v specs,F, Manual 
+19,"8,5 l/100km","5,4 l/100km","6,5 l/100km",155 g/km,g,,,abarth,2008 Abarth 500 1.4 16v T-Jet specs,G, Manual 
+20,"9,6 l/100km","5,3 l/100km","6,9 l/100km",162 g/km,g,,,abarth,2008 Abarth Grande Punto 1.4 T-Jet 16v specs,2008 Abarth Grande Punto 1.4 T-Jet 16v specs, Manual 

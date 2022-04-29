@@ -241,7 +241,9 @@ class Tables:
                     self.titles[self.tabNow]
                     )
             else:
-                raise ValueError('EITA PORRA TABELA NAO ENCONTRADA')
+                #print(self.brand, self.modelCar)
+                #raise ValueError('EITA PORRA TABELA NAO ENCONTRADA')
+                pass
 
         self.tabNow += 1
         return obj
@@ -253,9 +255,10 @@ class Tables:
                 try:
                     self.db.addData(tab)
                 except Exception as e:
-                    print(e.args)
-                    print(f'tabela erro: {tab.title}')
-                    print(tab.getValues())
+                    #print(e.args)
+                    #print(f'tabela erro: {tab.title}')
+                    #print(tab.getValues())
+                    pass
 
             
 class TableAbstract(ABC):

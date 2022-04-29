@@ -1,0 +1,21 @@
+id,cargoCapacity,lengthMinmax,widthMinmax,height,heightLiftThreshold,brand,modelCar,fuel,cambio
+1,140 l,,,,,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Manual 
+2,140 l,,,,,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Automatic 
+3,185-610 l,,,,700 mm,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,G, Manual 
+4,185-610 l,,,,700 mm,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,F, Automatic 
+5,185-610 l,,,,700 mm,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,G, Manual 
+6,185-610 l,,,,700 mm,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,F, Automatic 
+7,185-610 l,,,,700 mm,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,G, Manual 
+8,185-610 l,,,,700 mm,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,F, Automatic 
+9,185-610 l,,,,700 mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,G, Manual 
+10,185-610 l,,,,700 mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,F, Automatic 
+11,185-610 l,,,,700 mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,G, Manual 
+12,185-610 l,,,,700 mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,F, Automatic 
+13,185-610 l,,,,700 mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,G, Manual 
+14,185-610 l,,,,700 mm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,F, Automatic 
+15,185-610 l,,,,700 mm,abarth,2017 Abarth 695 Cabrio 1.4 T-Jet 165 Yamaha specs,G, Manual 
+16,185-550 l,,,,700 mm,abarth,2014 Abarth 695 Biposto specs,G, Manual 
+17,185-610 l,,,,700 mm,abarth,2010 Abarth 500C 1.4 16v T-Jet Competizione specs,G, Automatic 
+18,275-1020 l,670 mm / 1230,980 mm / -,,750 mm,abarth,2010 Abarth Punto Evo 1.4 T-Jet 16v specs,F, Manual 
+19,185-610 l,,,,700 mm,abarth,2008 Abarth 500 1.4 16v T-Jet specs,G, Manual 
+20,275-1020 l,670 mm / 1230,980 mm / -,,750 mm,abarth,2008 Abarth Grande Punto 1.4 T-Jet 16v specs,2008 Abarth Grande Punto 1.4 T-Jet 16v specs, Manual 

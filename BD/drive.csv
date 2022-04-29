@@ -1,0 +1,21 @@
+id,driveWheel,engineMotorType,fuelType,power,totalMaxPowerKW,totalMaxPowerHp,maxTorque,brand,modelCar,fuel,cambio
+1,rear,fuel engine,gasoline,125 kw (170 hp),125,170,250 nm,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Manual 
+2,rear,fuel engine,gasoline,125 kw (170 hp),125,170,250 nm,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Automatic 
+3,front,fuel engine,gasoline,107 kw (145 hp),107,145,206 nm,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,G, Manual 
+4,front,fuel engine,gasoline,107 kw (145 hp),107,145,206 nm,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,F, Automatic 
+5,front,fuel engine,gasoline,121 kw (165 hp),121,165,230 nm,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,G, Manual 
+6,front,fuel engine,gasoline,121 kw (165 hp),121,165,230 nm,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,F, Automatic 
+7,front,fuel engine,gasoline,132 kw (180 hp),132,180,250 nm,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,G, Manual 
+8,front,fuel engine,gasoline,132 kw (180 hp),132,180,250 nm,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,F, Automatic 
+9,front,fuel engine,gasoline,107 kw (145 hp),107,145,206 nm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,G, Manual 
+10,front,fuel engine,gasoline,107 kw (145 hp),107,145,206 nm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,F, Automatic 
+11,front,fuel engine,gasoline,121 kw (165 hp),121,165,230 nm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,G, Manual 
+12,front,fuel engine,gasoline,121 kw (165 hp),121,165,230 nm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,F, Automatic 
+13,front,fuel engine,gasoline,132 kw (180 hp),132,180,250 nm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,G, Manual 
+14,front,fuel engine,gasoline,132 kw (180 hp),132,180,250 nm,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,F, Automatic 
+15,front,fuel engine,gasoline,121 kw (165 hp),121,165,230 nm,abarth,2017 Abarth 695 Cabrio 1.4 T-Jet 165 Yamaha specs,G, Manual 
+16,front,fuel engine,gasoline,140 kw (190 hp),140,190,250 nm,abarth,2014 Abarth 695 Biposto specs,G, Manual 
+17,front,fuel engine,gasoline,103 kw (140 hp),103,140,206 nm,abarth,2010 Abarth 500C 1.4 16v T-Jet Competizione specs,G, Automatic 
+18,front,fuel engine,gasoline,121 kw (165 hp),121,165,250 nm,abarth,2010 Abarth Punto Evo 1.4 T-Jet 16v specs,F, Manual 
+19,front,fuel engine,gasoline,99 kw (135 hp),99,135,206 nm,abarth,2008 Abarth 500 1.4 16v T-Jet specs,G, Manual 
+20,front,fuel engine,gasoline,114 kw (155 hp),114,155,201 nm,abarth,2008 Abarth Grande Punto 1.4 T-Jet 16v specs,2008 Abarth Grande Punto 1.4 T-Jet 16v specs, Manual 

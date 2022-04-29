@@ -1,0 +1,21 @@
+id,price,newPriceRoadworthy,roadTax3Months,bodyType,transmission,numberOfSeats,segment,introduction,end,brand,modelCar,fuel,cambio
+1,€ 44.760,,€ 115 - € 128,"2-doors, convertible",6 speed manual transmission,2,g (sport),october 2016,november 2019,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Manual 
+2,€ 47.160,,€ 115 - € 128,"2-doors, convertible",6 speed automatic with double clutch,2,g (sport),october 2016,november 2019,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Automatic 
+3,€ 25.330,,€ 93 - € 104,"3-doors, hatchback",5 speed manual transmission,4,b (small),june 2016,march 2019,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,G, Manual 
+4,€ 26.730,,€ 93 - € 104,"3-doors, hatchback",5 speed semi-automatic,4,b (small),june 2016,january 2019,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,F, Automatic 
+5,€ 29.230,,€ 93 - € 104,"3-doors, hatchback",5 speed manual transmission,4,b (small),june 2016,march 2019,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,G, Manual 
+6,€ 30.630,,€ 93 - € 104,"3-doors, hatchback",5 speed semi-automatic,4,b (small),june 2016,january 2019,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,F, Automatic 
+7,€ 32.930,,€ 93 - € 104,"3-doors, hatchback",5 speed manual transmission,4,b (small),june 2016,march 2019,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,G, Manual 
+8,€ 34.330,,€ 93 - € 104,"3-doors, hatchback",5 speed semi-automatic,4,b (small),june 2016,january 2019,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,F, Automatic 
+9,€ 28.330,,€ 93 - € 104,"3-doors, convertible",5 speed manual transmission,4,b (small),june 2016,march 2019,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,G, Manual 
+10,€ 29.730,,€ 115 - € 128,"3-doors, convertible",5 speed semi-automatic,4,b (small),june 2016,january 2019,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,F, Automatic 
+11,€ 32.230,,€ 93 - € 104,"3-doors, convertible",5 speed manual transmission,4,b (small),june 2016,march 2019,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,G, Manual 
+12,€ 33.630,,€ 115 - € 128,"3-doors, convertible",5 speed semi-automatic,4,b (small),june 2016,january 2019,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,F, Automatic 
+13,€ 35.930,,€ 115 - € 128,"3-doors, convertible",5 speed manual transmission,4,b (small),june 2016,march 2019,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,G, Manual 
+14,€ 37.330,,€ 115 - € 128,"3-doors, convertible",5 speed semi-automatic,4,b (small),june 2016,january 2019,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,F, Automatic 
+15,€ 35.625,,€ 93 - € 104,"3-doors, hatchback",5 speed manual transmission,4,b (small),may 2017,march 2019,abarth,2017 Abarth 695 Cabrio 1.4 T-Jet 165 Yamaha specs,G, Manual 
+16,€ 50.750,,€ 93 - € 104,"3-doors, hatchback",5 speed manual transmission,2,b (small),august 2014,june 2016,abarth,2014 Abarth 695 Biposto specs,G, Manual 
+17,€ 26.700,,€ 115 - € 128,"3-doors, convertible",5 speed semi-automatic,4,b (small),june 2010,july 2012,abarth,2010 Abarth 500C 1.4 16v T-Jet Competizione specs,G, Automatic 
+18,€ 24.545,,€ 136 - € 152,"3-doors, hatchback",6 speed manual transmission,4,b (small),june 2010,january 2013,abarth,2010 Abarth Punto Evo 1.4 T-Jet 16v specs,F, Manual 
+19,€ 23.200,,€ 72 - € 80,"3-doors, hatchback",5 speed manual transmission,4,a (mini),july 2008,july 2012,abarth,2008 Abarth 500 1.4 16v T-Jet specs,G, Manual 
+20,€ 21.990,,€ 115 - € 128,"3-doors, hatchback",6 speed manual transmission,4,b (small),august 2008,june 2010,abarth,2008 Abarth Grande Punto 1.4 T-Jet 16v specs,2008 Abarth Grande Punto 1.4 T-Jet 16v specs, Manual 

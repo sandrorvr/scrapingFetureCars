@@ -1,0 +1,21 @@
+id,curbWeight,maxPayload,maxPermissibleMass,maxFrontAxleMass,maxRearAxleMass,maxBrakedTrailerMass,maxUnbrakedTrailerMass,maxNoseWeight,maxRoofLoad,brand,modelCar,fuel,cambio
+1,1060 kg,- kg,- kg,- kg,- kg,0 kg,0 kg,0 kg,- kg,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Manual 
+2,1060 kg,- kg,- kg,- kg,- kg,0 kg,0 kg,0 kg,- kg,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Automatic 
+3,1010 kg,415 kg,1425 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,G, Manual 
+4,1020 kg,405 kg,1425 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,F, Automatic 
+5,1010 kg,415 kg,1425 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,G, Manual 
+6,1020 kg,405 kg,1425 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,F, Automatic 
+7,1045 kg,380 kg,1425 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,G, Manual 
+8,1045 kg,380 kg,1425 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,F, Automatic 
+9,1050 kg,380 kg,1430 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,G, Manual 
+10,1060 kg,365 kg,1425 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,F, Automatic 
+11,1050 kg,380 kg,1430 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,G, Manual 
+12,1060 kg,365 kg,1425 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,F, Automatic 
+13,1065 kg,365 kg,1430 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,G, Manual 
+14,1065 kg,360 kg,1425 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,F, Automatic 
+15,1050 kg,380 kg,1430 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2017 Abarth 695 Cabrio 1.4 T-Jet 165 Yamaha specs,G, Manual 
+16,997 kg,- kg,- kg,- kg,- kg,- kg,- kg,- kg,50 kg,abarth,2014 Abarth 695 Biposto specs,G, Manual 
+17,1085 kg,355 kg,1440 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2010 Abarth 500C 1.4 16v T-Jet Competizione specs,G, Automatic 
+18,1185 kg,480 kg,1665 kg,- kg,- kg,1000 kg,400 kg,60 kg,75 kg,abarth,2010 Abarth Punto Evo 1.4 T-Jet 16v specs,F, Manual 
+19,905 kg,465 kg,1370 kg,- kg,- kg,800 kg,400 kg,35 kg,50 kg,abarth,2008 Abarth 500 1.4 16v T-Jet specs,G, Manual 
+20,1130 kg,585 kg,1715 kg,- kg,- kg,1000 kg,400 kg,60 kg,75 kg,abarth,2008 Abarth Grande Punto 1.4 T-Jet 16v specs,2008 Abarth Grande Punto 1.4 T-Jet 16v specs, Manual 

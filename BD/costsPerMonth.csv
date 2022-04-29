@@ -1,0 +1,21 @@
+id,years4Depreciation,motorVehicleTax,insurance,fuelCosts,maintenance,totalCosts,totalCostsPerKilometer,brand,modelCar,fuel,cambio
+1,,€ 38,€ 80,€ 163,€ 53,,,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Manual 
+2,,€ 38,€ 84,€ 168,€ 54,,,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Automatic 
+3,,€ 31,€ 52,€ 153,€ 48,,,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,G, Manual 
+4,,€ 31,€ 54,€ 148,€ 48,,,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,F, Automatic 
+5,,€ 31,€ 57,€ 153,€ 52,,,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,G, Manual 
+6,,€ 31,€ 59,€ 148,€ 52,,,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,F, Automatic 
+7,,€ 31,€ 63,€ 153,€ 52,,,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,G, Manual 
+8,,€ 31,€ 65,€ 148,€ 52,,,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,F, Automatic 
+9,,€ 31,€ 57,€ 153,€ 48,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,G, Manual 
+10,,€ 38,€ 59,€ 148,€ 48,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,F, Automatic 
+11,,€ 31,€ 62,€ 153,€ 52,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,G, Manual 
+12,,€ 38,€ 64,€ 148,€ 52,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,F, Automatic 
+13,,€ 38,€ 68,€ 153,€ 52,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,G, Manual 
+14,,€ 38,€ 70,€ 148,€ 53,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,F, Automatic 
+15,,€ 31,€ 67,€ 153,€ 52,,,abarth,2017 Abarth 695 Cabrio 1.4 T-Jet 165 Yamaha specs,G, Manual 
+16,,€ 31,€ 88,€ 166,€ 59,,,abarth,2014 Abarth 695 Biposto specs,G, Manual 
+17,,€ 38,€ 55,€ 166,€ 48,,,abarth,2010 Abarth 500C 1.4 16v T-Jet Competizione specs,G, Automatic 
+18,,€ 45,€ 53,€ 153,€ 56,,,abarth,2010 Abarth Punto Evo 1.4 T-Jet 16v specs,F, Manual 
+19,,€ 24,€ 47,€ 166,€ 48,,,abarth,2008 Abarth 500 1.4 16v T-Jet specs,G, Manual 
+20,,€ 38,€ 49,€ 176,€ 56,,,abarth,2008 Abarth Grande Punto 1.4 T-Jet 16v specs,2008 Abarth Grande Punto 1.4 T-Jet 16v specs, Manual 

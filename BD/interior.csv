@@ -1,0 +1,21 @@
+id,heightAdjustmentSeat,lumbarSupportSeat,electricAdjustmentSeat,heatedSeats,ventilatedSeats,sportsSeats,leatherCoveredSteeringWheel,adjustableSteeringWheel,heatedSteeringWheel,leatherUpholstery,rearHeadrests,foldingRearSeats,slidingRearSeat,centerArmrest,automaticallyDimmingInteriorMirror,readingLamps,illuminatedMakeupMirror,adjustableDashboardLighting,tachometer,dayCounter,coolingWaterTemperatureGauge,outsideTemperatureGauge,boardComputer,audioSystem,digitalRadioDAB,steeringWheelControlsForAudio,audioInput,navigationSystem,bluetooth,brand,modelCar,fuel,cambio
+1,,,,yes,,yes,yes,yes,,,,,,,,,,,yes,yes,yes,,,yes,yes,yes,yes(aux & usb),no,yes,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Manual 
+2,,,,yes,,yes,yes,yes,,,,,,,,,,,yes,yes,yes,,,yes,yes,yes,yes(aux & usb),no,yes,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Automatic 
+3,yes(driver),,,,,yes,yes,yes,,€ 1.495,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,G, Manual 
+4,yes(driver),,,,,yes,yes,yes,,€ 1.495,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,F, Automatic 
+5,yes(driver),,,,,yes,yes,yes,,yes,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,G, Manual 
+6,yes(driver),,,,,yes,yes,yes,,yes,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,F, Automatic 
+7,yes(driver),,,,,yes,yes,yes,,€ 1.495,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,G, Manual 
+8,yes(driver),,,,,yes,yes,yes,,€ 1.495,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,F, Automatic 
+9,yes(driver),,,,,yes,yes,yes,,€ 1.495,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,G, Manual 
+10,yes(driver),,,,,yes,yes,yes,,€ 1.495,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,F, Automatic 
+11,yes(driver),,,,,yes,yes,yes,,yes,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,G, Manual 
+12,yes(driver),,,,,yes,yes,yes,,yes,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,F, Automatic 
+13,yes(driver),,,,,yes,yes,yes,,€ 1.495,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,G, Manual 
+14,yes(driver),,,,,yes,yes,yes,,€ 1.495,yes,yes(in parts),,,€ 195,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),,yes,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,F, Automatic 
+15,yes(driver),,,,,yes,yes,yes,,yes,yes,yes(in parts),,,yes,,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes(aux & usb),yes(with color display),yes,abarth,2017 Abarth 695 Cabrio 1.4 T-Jet 165 Yamaha specs,G, Manual 
+16,yes(driver),,,,,yes,yes,yes,,yes,yes,yes(in parts),,,yes,,,yes,yes,yes,yes,yes,yes,yes,,yes,yes(aux),€ 250,yes,abarth,2014 Abarth 695 Biposto specs,G, Manual 
+17,yes(driver),,,,,,yes,yes,,€ 1.350,yes,yes,,,,,,yes,yes,yes,yes,yes,yes,yes,,yes,yes(aux),€ 250,yes,abarth,2010 Abarth 500C 1.4 16v T-Jet Competizione specs,G, Automatic 
+18,yes(driver),yes(driver),,,,yes,yes,yes(height & amp; depth),,€ 1.150,yes,yes,,yes(front),,yes(front),,,yes,yes,yes,yes,yes,yes,,yes,yes(aux),€ 550,yes,abarth,2010 Abarth Punto Evo 1.4 T-Jet 16v specs,F, Manual 
+19,yes(driver),,,,,,yes,yes,,€ 1.350,yes,yes,,,,,,yes,yes,yes,yes,yes,yes,yes,,yes,yes(aux),€ 250,yes,abarth,2008 Abarth 500 1.4 16v T-Jet specs,G, Manual 
+20,yes(driver),yes(driver),,,,yes,yes,yes(height & amp; depth),,€ 1.150,yes,yes,,yes(front),,yes(front),,,yes,yes,yes,yes,yes,yes,,yes,yes(aux),€ 550,yes,abarth,2008 Abarth Grande Punto 1.4 T-Jet 16v specs,2008 Abarth Grande Punto 1.4 T-Jet 16v specs, Manual 

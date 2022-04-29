@@ -25,7 +25,10 @@ class GetModelUrls:
                     href = str(tagA.attrs['href']) if tagA != None else ''
                     if 'spec' in href:
                         info['modelURL'] = href
-                        info['fuel'] = str(row.find('div', text=re.compile(r'(F)|(G)')).get_text())
+                        try:
+                            info['fuel'] = str(row.find('div', text=re.compile(r'(F)|(G)|(A)|(E)|(B)|(C)|(D)|(Z)|(Y)|(K)|(W)')).get_text())
+                        except:
+                            print(url)
                         info['cambio'] = str(row.find('div', text=re.compile(r'(Manual)|(Automatic)')).get_text())
                         info['modelCar'] = str(row.find('a', href=re.compile(f'({self.base_URL + self._brand})(.+)')).attrs['title'])
                         listModelsPag.append(info)

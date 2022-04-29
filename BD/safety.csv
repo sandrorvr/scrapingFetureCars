@@ -1,0 +1,21 @@
+id,crashTestResult,aBS,brakeForceDistribution,brakeAssist,emergencyBrakingAssistance,blindSpotAssist,stabilityControl,tractionControl,limitedSlipDifferential,driversAirbag,passengerAirbag,sideAirbags,headCurtainAirbags,driversKneeAirbag,hillAssist,laneAssist,blindSpotAssistant,fatigueSensor,tirePressureSensor,citySafetySystem,nightVisionWithPersonRecognition,precrashSystem,highBeamAssistant,trafficSignRecognition,collisionWarningSystem,automaticLevelControl,brand,modelCar,fuel,cambio
+1,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),,,,,,,yes,,,,no,,,,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Manual 
+2,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),,,,,,,yes,,,,no,,,,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Automatic 
+3,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,G, Manual 
+4,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,F, Automatic 
+5,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,G, Manual 
+6,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,F, Automatic 
+7,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,G, Manual 
+8,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,F, Automatic 
+9,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,G, Manual 
+10,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,F, Automatic 
+11,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,G, Manual 
+12,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,F, Automatic 
+13,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,G, Manual 
+14,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,F, Automatic 
+15,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,yes,,,,,,,,abarth,2017 Abarth 695 Cabrio 1.4 T-Jet 165 Yamaha specs,G, Manual 
+16,not tested,yes,yes,yes,,,yes,yes,yes,yes,yes,yes(front),yes(front & rear),yes,yes,,,,yes,,,,,,,,abarth,2014 Abarth 695 Biposto specs,G, Manual 
+17,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,yes,,,,,,,,,,,,abarth,2010 Abarth 500C 1.4 16v T-Jet Competizione specs,G, Automatic 
+18,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,€ 345,,,,,,,,abarth,2010 Abarth Punto Evo 1.4 T-Jet 16v specs,F, Manual 
+19,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),yes,,,,,,,,,,,,,abarth,2008 Abarth 500 1.4 16v T-Jet specs,G, Manual 
+20,not tested,yes,yes,yes,,,yes,yes,,yes,yes,yes(front),yes(front & rear),,,,,,€ 345,,,,,,,,abarth,2008 Abarth Grande Punto 1.4 T-Jet 16v specs,2008 Abarth Grande Punto 1.4 T-Jet 16v specs, Manual 

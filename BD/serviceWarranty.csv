@@ -1,0 +1,21 @@
+id,service,generalWarranty,bodyWarranty,brand,modelCar,fuel,cambio
+1,20.000 km / 1 year,"5 year, unlimited",8 year,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Manual 
+2,20.000 km / 1 year,"5 year, unlimited",8 year,abarth,2016 Abarth 124 Spider 1.4 MultiAir 16v specs,G, Automatic 
+3,20.000 km / 1 year,"5 year, unlimited",8 year,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,G, Manual 
+4,20.000 km / 1 year,"2 year, unlimited",8 year,abarth,2016 Abarth 595 1.4 T-Jet 145 specs,F, Automatic 
+5,20.000 km / 1 year,"5 year, unlimited",8 year,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,G, Manual 
+6,20.000 km / 1 year,"2 year, unlimited",8 year,abarth,2016 Abarth 595 1.4 T-Jet 165 Turismo specs,F, Automatic 
+7,20.000 km / 1 year,"5 year, unlimited",8 year,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,G, Manual 
+8,20.000 km / 1 year,"2 year, unlimited",8 year,abarth,2016 Abarth 595 1.4 T-Jet 180 Competizione specs,F, Automatic 
+9,20.000 km / 1 year,"5 year, unlimited",8 year,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,G, Manual 
+10,20.000 km / 1 year,"2 year, unlimited",8 year,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 145 specs,F, Automatic 
+11,20.000 km / 1 year,"5 year, unlimited",8 year,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,G, Manual 
+12,20.000 km / 1 year,"2 year, unlimited",8 year,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 165 Turismo specs,F, Automatic 
+13,20.000 km / 1 year,"5 year, unlimited",8 year,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,G, Manual 
+14,20.000 km / 1 year,"2 year, unlimited",8 year,abarth,2016 Abarth 595 Cabrio 1.4 T-Jet 180 Competizione specs,F, Automatic 
+15,20.000 km / 1 year,"5 year, unlimited",8 year,abarth,2017 Abarth 695 Cabrio 1.4 T-Jet 165 Yamaha specs,G, Manual 
+16,20.000 km / 1 year,"2 year, unlimited",8 year,abarth,2014 Abarth 695 Biposto specs,G, Manual 
+17,20.000 km / 1 year,"2 year, unlimited",8 year,abarth,2010 Abarth 500C 1.4 16v T-Jet Competizione specs,G, Automatic 
+18,30.000 km / 1 year,"2 year, unlimited",12 year,abarth,2010 Abarth Punto Evo 1.4 T-Jet 16v specs,F, Manual 
+19,20.000 km / 1 year,"2 year, unlimited",8 year,abarth,2008 Abarth 500 1.4 16v T-Jet specs,G, Manual 
+20,30.000 km / 1 year,"2 year, unlimited",12 year,abarth,2008 Abarth Grande Punto 1.4 T-Jet 16v specs,2008 Abarth Grande Punto 1.4 T-Jet 16v specs, Manual 
