@@ -2,6 +2,7 @@ from abc import ABC, abstractclassmethod
 from numpy import full_like
 import pandas as pd
 import os
+import json
 
 from model.DB import DB
 
@@ -18,7 +19,7 @@ class Tables:
         self.titles = titles
         self.sizeTbs = len(tabs)
         self.tabNow = 0
-        self.verification()#DB.createInstace('./DB/DataBase.db')
+        self.verification()
 
     def verification(self):
         if self.sizeTbs != len(self.titles):
@@ -241,9 +242,15 @@ class Tables:
                     self.titles[self.tabNow]
                     )
             else:
-                #print(self.brand, self.modelCar)
-                #raise ValueError('EITA PORRA TABELA NAO ENCONTRADA')
-                pass
+                with open('log.json','a') as file:
+                    erro = {
+                            'erro': 'table not find', 
+                            'brand': self.brand, 
+                            'modelCar': self.modelCar,
+                            'fase': '[find table > fase2]'
+                            }
+                    json.dump(erro, file)
+                    file.write(',\n')
 
         self.tabNow += 1
         return obj
@@ -254,11 +261,15 @@ class Tables:
             if tab != None:
                 try:
                     self.db.addData(tab)
-                except Exception as e:
-                    #print(e.args)
-                    #print(f'tabela erro: {tab.title}')
-                    #print(tab.getValues())
-                    pass
+                except Exception as erro:
+                    logErro = {
+                        'erro': erro.args,
+                        'fase': '[save > fase2]',
+                        'table': tab.title,
+                    }
+                    with open('log.json','a') as file:
+                        json.dump(logErro, file)
+                        file.write(',\n')
 
             
 class TableAbstract(ABC):
