@@ -211,7 +211,7 @@ class Tables:
                     self.espec, 
                     self.titles[self.tabNow]
                     )
-            elif self.titles[self.tabNow] == 'NEW PRICE HISTORY':
+            elif self.titles[self.tabNow] == '_RETIRADO_DA_ANALISE_NEW PRICE HISTORY':
                 obj = TableNewPriceHistory(
                     self.tabs[self.tabNow],
                     self.brand, 
@@ -221,7 +221,7 @@ class Tables:
                     self.espec, 
                     self.titles[self.tabNow]
                     )
-            elif self.titles[self.tabNow] == 'OCCASION PRICES':
+            elif self.titles[self.tabNow] == '_RETIRADO_DA_ANALISE_OCCASION PRICES':
                 obj = TableOccasionPrices(
                     self.tabs[self.tabNow],
                     self.brand, 
@@ -270,6 +270,7 @@ class Tables:
                     with open('log.json','a') as file:
                         json.dump(logErro, file)
                         file.write(',\n')
+                    pass
 
             
 class TableAbstract(ABC):

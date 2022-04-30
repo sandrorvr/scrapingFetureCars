@@ -2,7 +2,7 @@ import bs4
 import requests
 import re
 import pandas as pd
-
+import json
 
 class GetModelUrls:
 
@@ -26,9 +26,17 @@ class GetModelUrls:
                     if 'spec' in href:
                         info['modelURL'] = href
                         try:
-                            info['fuel'] = str(row.find('div', text=re.compile(r'(F)|(G)|(A)|(E)|(B)|(C)|(D)|(Z)|(Y)|(K)|(W)')).get_text())
-                        except:
-                            print(url)
+                            info['fuel'] = str(row.find('div', text=re.compile(r'(F)|(G)|(A)|(E)|(B)|(C)|(D)|(Z)|(Y)|(K)|(W)|(Unknown)')).get_text())
+                        except Exception as erro:
+                            logErro = {
+                            'erro': erro.args,
+                            'fase': '[get fuel]',
+                            'url': url,
+                            }
+                            with open('log.json','a') as file:
+                                json.dump(logErro, file)
+                                file.write(',\n')
+
                         info['cambio'] = str(row.find('div', text=re.compile(r'(Manual)|(Automatic)')).get_text())
                         info['modelCar'] = str(row.find('a', href=re.compile(f'({self.base_URL + self._brand})(.+)')).attrs['title'])
                         listModelsPag.append(info)
@@ -87,12 +95,10 @@ class GetModelUrls:
 
 
 if __name__ == '__main__':
-    x = GetModelUrls('abarth')
+    
+    brands = ['audi']
 
-    vet1 = x.getUrl('https://www.cars-data.com/en/abarth','models')
-    vet2 = x.getSubModels(vet1,'models')
-    vet3 = x.getSubModels(vet2,'types')
-    dicInfo = x.generteSubEspec(vet3)
-    for i in dicInfo:
-        print('\n')
-        print(dicInfo)
+    for brand in brands:
+        x = GetModelUrls(brand)
+        with open('audi.json', 'w') as file:
+            json.dump(x.execute(), file)
